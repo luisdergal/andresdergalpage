@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+}
+
+p a {
+    display: inline;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  header {
+    background: rgb(0, 0, 29);
+    padding: 1rem;
+  }
+
+  header h3 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0 80px;
+    letter-spacing: 0.5px;
+  }
+
+  .logo {
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+  }
+
+  .logo2 {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+  }
+  
+  main {
+    background: rgb(0, 4, 37);
+  }
+  
+  footer {
+    background: wheat;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
+
+/* Imagen de perfil */
+
+.profile-img-container p {
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 7vh;
+}
+
+.landing-text-container h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.landing-text-container h2 {
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: aliceblue;
+}
+
+.landing-text-container h2 {
+    font-weight: 600;
+}
+
+.cards {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards p {
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 3px;
+}
+
+.card1 {
+    padding: 27px;
+    text-align: center;
+    font-size: 37px;
+    border-width: 0px;
+    border-color: #cccccc;
+    background-color: #e8eaea;
+    color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(66,66,66,.40);
+    text-shadow: 0px 0px 3px rgba(66,66,66,.51);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem ;
+}
+
+.card1:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 0px 4px 3px rgba(66,66,66,.51);
+
+}
+
+.fa-tiktok {
+    text-shadow: 5px 3px 2px #FE2C54, -4px -2px 2px #24F4ED;
+}
+
+.card2 {
+    padding: 27px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 37px;
+    border-width: 0px;
+    border-color: #cccccc;
+    background-color: #e8eaea;
+    color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(66,66,66,.40);
+    text-shadow: 0px 0px 3px rgba(66,66,66,.51);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem ;
+}
+
+.card2:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 0px 4px 3px rgba(66,66,66,.51);
+
+}
