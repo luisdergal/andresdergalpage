@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans:ital,wght@0,700;1,500&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>   
   <body>
     <header><h3 class="logo">Andres<span class="logo2">Dergal</span></h3></header>
@@ -27,24 +32,32 @@
             </h2>
         </div>
         <div class="cards">
-            <p>Mis proyectos: </p>
-            <a href="https://github.com/luisdergal" class="card1"> GitHub  <i class="fa-brands fa-github"></i></a>
-            <p>LinkedIn </p>
-            <a href="https://www.linkedin.com/in/luis-andr%C3%A9s-dergal-almaraz-6a4a8122b/" class="card1"> LinkedIn &nbsp; <i class="fa-brands fa-linkedin"></i></a>
-            <p>TikTok con mi ex pareja: </p>
-            <a href="https://www.tiktok.com/@soyelpeluca" class="card1"> TikTok &nbsp; <i class="fa-brands fa-tiktok"></i></a>
+            <p class="animate__animated animate__fadeInLeftBig">Mis proyectos: </p>
+            <a href="https://github.com/luisdergal" class="card1 animate__animated animate__fadeInLeftBig"> GitHub  <i class="fa-brands fa-github"></i></a>
+            <p class="animate__animated animate__fadeInLeftBig">LinkedIn: </p>
+            <a href="https://www.linkedin.com/in/luis-andr%C3%A9s-dergal-almaraz-6a4a8122b/" class="card1 likedIn-Card animate__animated animate__fadeInLeftBig"> LinkedIn &nbsp; <i class="fa-brands fa-linkedin"></i></a>
+            <button class="accordion animate__animated animate__fadeInLeftBig">Redes Sociales &nbsp; &nbsp; <i class="fa-solid fa-comments"></i></button>
+            <div class="panel cards">
+              <p>TikTok con mi ex pareja: </p>
+            <a href="https://www.tiktok.com/@soyelpeluca" class="card1 animate__bounceIn"> TikTok &nbsp; <i class="fa-brands fa-tiktok"></i></a>
             <p>Twitter:</p>
-            <a href="https://twitter.com/_pelucasabe" class="card1"> Twitter: &nbsp; <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://twitter.com/_pelucasabe" class="card1 animate__bounceIn"> Twitter: &nbsp; <i class="fa-brands fa-twitter"></i></a>
             <p>Mis vergonzosos videos de youtube:</p>
-            <a href="https://www.youtube.com/c/Peluca/videos" class="card1"> Youtube &nbsp; <i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.youtube.com/c/Peluca/videos" class="card1 animate__bounceIn"> Youtube &nbsp; <i class="fa-brands fa-youtube"></i></a>
             <p>Mi canal de transmisiones en vivo:</p>
-            <a href="https://www.twitch.tv/impeluca" class="card1"> Twitch &nbsp; <i class="fa-brands fa-twitch"></i></a>
+            <a href="https://www.twitch.tv/impeluca" class="card1 animate__bounceIn"> Twitch &nbsp; <i class="fa-brands fa-twitch"></i></a>
+            </div>
         </div>
         <div>
-            <h4>Contacto: <br> luisandresdergal@gmail.com</h4>
+            <h4 class="animate__animated animate__backInLeft">Contacto: <br> luisandresdergal@gmail.com</h4>
         </div>
     </main>
     <footer>Luis Andres Dergal Almaraz 2022 ©</footer>
   </body>
   <script src="https://kit.fontawesome.com/f78fda3dda.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
