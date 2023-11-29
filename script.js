@@ -18,7 +18,7 @@ var check = document.querySelector(".check");
 check.addEventListener("click", idioma);
 
 function idioma() {
- let id = check.checked;
+ let id = check.checked;asdasdas
   if (id==true) {
     location.href="es/index.html";
   }else {
