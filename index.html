@@ -4,83 +4,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Andres Dergal | English Site </title>
+    <title>Andres Dergal | Full-Stack Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Open+Sans:ital,wght@0,700;1,500&family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
   <body>
     <header>
       <div>
         <h3 class="logo">Andres<span class="logo2">Dergal</span></h3>
       </div>
-      <div class="espEn">
-        <span class="en"> English</span>
-        <input class="check" type="checkbox">
-        <span class="es">Spanish</span>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="es">ES</button>
       </div>
     </header>
+
     <main>
-        <div class="profile-img-container animate__animated animate__fadeInUp">
-            <img class="profile-img" src="assets/images/andres.png" alt="foto de developer">
-            <a class="animate__animated animate__swing" href="https://www.instagram.com/soyelpeluca/"><p>@soyelpeluca</p></a>
+      <div class="hero-section">
+        <!-- Hero Header with Navigation -->
+        <div class="hero-header">
+          <span class="hero-label">Andres Dergal · Full-Stack Developer</span>
         </div>
-        <div class="landing-text-container animate__animated animate__fadeIn">
-            <h1 class="main-title animate__animated animate__fadeInDown">
-              <span class="gradient-text-3d">SOFTWARE ENGINEER</span>
+
+        <!-- Hero Container with Video Background -->
+        <div class="hero-container">
+          <!-- Video Background -->
+          <video class="hero-video" autoplay loop muted playsinline>
+            <source src="assets/electric-video.mp4" type="video/mp4">
+          </video>
+
+          <!-- Overlay Gradients -->
+          <div class="hero-overlay"></div>
+
+          <!-- Hero Content -->
+          <div class="hero-content">
+            <div class="profile-img-container">
+              <img class="profile-img" src="assets/images/andres.png" alt="Andres Dergal - Full-Stack Developer">
+              <a class="instagram-link" href="https://www.instagram.com/soyelpeluca/" target="_blank" rel="noopener">
+                <p>@soyelpeluca</p>
+              </a>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="animated-title" data-i18n="title">FULL-STACK DEVELOPER</span>
             </h1>
-            <h2>
-              I'm 27 years old and have been actively involved in web and software development for over three years.<br>
-              I have gained experience working on large-scale projects for North America as both a Front-End and Back-End developer.<br>
-              Currently, I specialize in Angular and React, as well as in creating and managing REST APIs using Java with Spring Boot, Maven, and Tomcat.<br>
-              I've also developed applications in RPGLE, which has helped me tackle unique challenges in legacy systems.<br>
-              My expertise in Front-End development with Bootstrap, Tailwind, CSS, and SASS allows me to create attractive and functional user interfaces.<br>
-              I have solid experience working with SQL databases, designing and managing relational data for various applications.<br>
-              I also have strong knowledge of CI/CD, creating automation scripts and building deployment pipelines using Docker, Kubernetes, and cloud platforms, always optimizing resources efficiently.<br>
-              I am well-versed in software architecture best practices, allowing me to design and build projects from scratch that are ready for production environments.<br>
-              Beyond technical implementation, I follow best practices in UX/UI to ensure an exceptional user experience.<br>
-              This versatility in multiple languages and my strong background in frontend development give me a unique advantage in addressing a wide range of projects and technological requirements.<br>
-              Here you can find links to my social media and the projects I have created. &nbsp; <span>Welcome</span> <br>
-            </h2>
+
+            <div class="hero-description" data-i18n="intro">
+              <p class="highlight">
+                3+ years of professional experience developing web applications for international markets, with a focus on software architecture and clean code practices.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="cards">
-          <p data-aos="fade-up">LinkedIn: </p>
-          <a href="https://www.linkedin.com/in/luis-andres-dergal-almaraz-6a4a8122b" class="card1 likedIn-Card" data-aos="fade-up"> LinkedIn &nbsp; <i class="fa-brands fa-linkedin"></i></a>
-            <p data-aos="fade-up">My Projects: </p>
-            <a href="https://github.com/luisdergal" class="card1" data-aos="fade-up"> GitHub  <i class="fa-brands fa-github"></i></a>
-            <p data-aos="fade-up">Networks: </p>
-            <button class="accordion" data-aos="fade-up">Social Networks &nbsp; &nbsp; <i class="fa-solid fa-comments"></i></button>
+
+        <div class="landing-text-container animate__animated animate__fadeIn">
+
+          <div class="professional-summary" data-aos="fade-up">
+            <h3 data-i18n="summary-title">Professional Summary</h3>
+            <div class="summary-content" data-i18n="summary-content">
+              <p class="summary-intro">
+                Full-Stack Developer with over 3 years of professional experience in software architecture and development for international markets. Primary focus on building and maintaining web applications using modern JavaScript frameworks and backend technologies.
+              </p>
+
+              <p class="summary-paragraph">
+                Technical expertise encompasses both frontend development with React, Angular, and Next.js, as well as backend development using Java Spring Boot, Node.js, and Go. Experienced in working with SQL databases, implementing DevOps practices with Docker and CI/CD pipelines, and following industry-standard software development methodologies.
+              </p>
+
+              <p class="summary-paragraph">
+                Professional practice includes system modernization, e-commerce platform development, and code refactoring for improved maintainability. Familiar with implementing business logic for inventory management, pricing systems, and checkout processes. Additionally experienced in exploring AI technologies, including LLM integration and data analysis tools.
+              </p>
+            </div>
+          </div>
+
+          <div class="tech-stack" data-aos="fade-up">
+            <h3 data-i18n="tech-title">Tech Stack</h3>
+            <div class="tech-grid">
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+                <h4 data-i18n="tech-frontend">Frontend</h4>
+                <p>React, Angular, Next.js, JavaScript, TypeScript, Bootstrap, Tailwind, CSS, SASS</p>
+              </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+                <h4 data-i18n="tech-backend">Backend</h4>
+                <p>Java Spring Boot, Node.js, Go, RPGLE</p>
+              </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+                <h4 data-i18n="tech-database">Databases</h4>
+                <p>SQL, Supabase, Neon, DB2</p>
+              </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="400">
+                <h4 data-i18n="tech-devops">DevOps & CI/CD</h4>
+                <p>GitHub Actions, Docker, Kubernetes, Concourse</p>
+              </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="500">
+                <h4 data-i18n="tech-design">Web Design</h4>
+                <p>Landing Pages, Link-trees, Corporate Sites, E-commerce, UX/UI, High Conversion Design</p>
+              </div>
+              <div class="tech-category" data-aos="fade-up" data-aos-delay="600">
+                <h4 data-i18n="tech-ai">AI & Innovation</h4>
+                <p>OpenAI, DeepSeek, LLM Integration, Data Analysis, Recommendation Systems</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="links-section">
+          <div class="cards">
+            <p data-aos="fade-up" data-i18n="links-professional">Professional Network</p>
+            <a href="https://www.linkedin.com/in/luis-andres-dergal-almaraz-6a4a8122b" class="card1 linkedin-card" data-aos="fade-up" target="_blank" rel="noopener">
+              <span data-i18n="link-linkedin">LinkedIn</span> &nbsp; <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <p data-aos="fade-up" data-i18n="links-projects">Projects & Code</p>
+            <a href="https://github.com/luisdergal" class="card1" data-aos="fade-up" target="_blank" rel="noopener">
+              <span data-i18n="link-github">GitHub</span> <i class="fa-brands fa-github"></i>
+            </a>
+
+            <p data-aos="fade-up" data-i18n="links-social">Social Networks</p>
+            <button class="accordion" data-aos="fade-up">
+              <span data-i18n="accordion-social">Social Networks</span> &nbsp; &nbsp; <i class="fa-solid fa-comments"></i>
+            </button>
             <div class="panel cards">
-              <!-- <p>Tiktok:</p>
-            <a href="https://www.tiktok.com/@soyelpeluca" class="card1 animate__bounceIn"> TikTok &nbsp; <i class="fa-brands fa-tiktok"></i></a> -->
-            <p>Facebook:</p>
-            <a href="https://www.facebook.com/HHaztex" class="card1 animate__bounceIn"> Facebook &nbsp; <i class="fa-brands fa-facebook"></i></a>
-            <p>Instagram:</p>
-            <a href="https://www.instagram.com/soyelpeluca?igsh=MWQyYm93NmpkMXczbw%3D%3D&utm_source=qr" class="card1 animate__bounceIn"> Instagram &nbsp; <i class="fa-brands fa-instagram"></i></a>
-            <p>X:</p>
-            <a href="https://twitter.com/_pelucasabe" class="card1 animate__bounceIn"> &nbsp; <i class="fa-brands fa-x-twitter"></i></a>
-            <p>My embarrassing Youtube videos:</p>
-            <a href="https://www.youtube.com/c/Peluca/videos" class="card1 animate__bounceIn"> Youtube &nbsp; <i class="fa-brands fa-youtube"></i></a>
-            <!-- <p>Twitch:</p>
-            <a href="https://www.twitch.tv/impeluca" class="card1 animate__bounceIn"> Twitch &nbsp; <i class="fa-brands fa-twitch"></i></a>
-            </div> -->
+              <p data-i18n="social-facebook">Facebook:</p>
+              <a href="https://www.facebook.com/HHaztex" class="card1 animate__bounceIn" target="_blank" rel="noopener">
+                Facebook &nbsp; <i class="fa-brands fa-facebook"></i>
+              </a>
+              <p data-i18n="social-instagram">Instagram:</p>
+              <a href="https://www.instagram.com/soyelpeluca?igsh=MWQyYm93NmpkMXczbw%3D%3D&utm_source=qr" class="card1 animate__bounceIn" target="_blank" rel="noopener">
+                Instagram &nbsp; <i class="fa-brands fa-instagram"></i>
+              </a>
+              <p>X:</p>
+              <a href="https://twitter.com/_pelucasabe" class="card1 animate__bounceIn" target="_blank" rel="noopener">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <p data-i18n="social-youtube">YouTube:</p>
+              <a href="https://www.youtube.com/c/Peluca/videos" class="card1 animate__bounceIn" target="_blank" rel="noopener">
+                Youtube &nbsp; <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-section" data-aos="fade-up">
+            <h4 data-i18n="contact-title">Contact</h4>
+            <a href="mailto:andresdergal@protonmail.com" class="email-link">andresdergal@protonmail.com</a>
+          </div>
         </div>
-        <div>
-            <h4 data-aos="fade-up">Contact: <br> <a href="mailto:luisandresdergal@gmail.com">luisandresdergal@gmail.com</a></h4>
-        </div>
+      </div>
     </main>
-    <footer>Luis Andres Dergal Almaraz 2025 ©</footer>
+
+    <footer>
+      <p>Luis Andres Dergal Almaraz 2025 ©</p>
+    </footer>
   </body>
+
   <script src="https://kit.fontawesome.com/f78fda3dda.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 800,
+      once: true,
+      offset: 100
+    });
   </script>
+  <script src="script.js"></script>
 </html>
